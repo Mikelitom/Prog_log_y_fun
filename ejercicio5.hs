@@ -4,6 +4,6 @@ factorial n = n * factorial (n - 1)
 
 main :: IO ()
 main = do 
-  let input = 5
-  let output = factorial input
-  print output
+    let input = 5
+    let output = factorial input
+    print output
